@@ -1,4 +1,0 @@
-module InMemoryLogging {
-    header "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/InMemoryLogging.build/InMemoryLogging-Swift.h"
-    requires objc
-}
