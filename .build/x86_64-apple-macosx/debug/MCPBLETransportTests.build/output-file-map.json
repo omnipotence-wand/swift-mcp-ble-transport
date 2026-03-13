@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/master.swiftdeps"
+  },
+  "/Users/lyf/program/swift/SwfitMCPBLETransport/Tests/MCPBLETransportTests/BLEMCPTransportLifecycleTests.swift": {
+    "dependencies": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEMCPTransportLifecycleTests.d",
+    "object": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEMCPTransportLifecycleTests.swift.o",
+    "swiftmodule": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEMCPTransportLifecycleTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEMCPTransportLifecycleTests.swiftdeps"
+  },
+  "/Users/lyf/program/swift/SwfitMCPBLETransport/Tests/MCPBLETransportTests/BLEPacketAssemblerTests.swift": {
+    "dependencies": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEPacketAssemblerTests.d",
+    "object": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEPacketAssemblerTests.swift.o",
+    "swiftmodule": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEPacketAssemblerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEPacketAssemblerTests.swiftdeps"
+  },
+  "/Users/lyf/program/swift/SwfitMCPBLETransport/Tests/MCPBLETransportTests/BLEPacketFramerTests.swift": {
+    "dependencies": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEPacketFramerTests.d",
+    "object": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEPacketFramerTests.swift.o",
+    "swiftmodule": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEPacketFramerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransportTests.build/BLEPacketFramerTests.swiftdeps"
+  }
+}

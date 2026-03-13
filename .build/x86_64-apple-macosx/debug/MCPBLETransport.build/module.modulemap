@@ -1,0 +1,4 @@
+module MCPBLETransport {
+    header "/Users/lyf/program/swift/SwfitMCPBLETransport/.build/x86_64-apple-macosx/debug/MCPBLETransport.build/MCPBLETransport-Swift.h"
+    requires objc
+}

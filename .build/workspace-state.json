@@ -1,0 +1,78 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "eventsource",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/mattt/eventsource.git",
+          "name" : "EventSource"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "a3a85a85214caf642abaa96ae664e4c772a59f6e",
+            "version" : "1.4.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "eventsource"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-log",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-log.git",
+          "name" : "swift-log"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "bbd81b6725ae874c69e9b8c8804d462356b55523",
+            "version" : "1.10.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-log"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-sdk",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/modelcontextprotocol/swift-sdk.git",
+          "name" : "mcp-swift-sdk"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "e76d61155bf00482ea8f2ff78fca08a4eece410e",
+            "version" : "0.10.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-sdk"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-system",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-system.git",
+          "name" : "swift-system"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "7c6ad0fc39d0763e0b699210e4124afd5041c5df",
+            "version" : "1.6.4"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-system"
+      }
+    ]
+  },
+  "version" : 6
+}
