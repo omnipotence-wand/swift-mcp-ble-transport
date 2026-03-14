@@ -1,5 +1,5 @@
 import MCP
-import MCPBLETransport
+import SwiftMCPBLETransport
 
 func runExample() async throws {
     let client = Client(name: "BLEClient", version: "1.0.0")

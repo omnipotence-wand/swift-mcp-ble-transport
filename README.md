@@ -1,26 +1,26 @@
-# MCPBLETransport
+# SwiftMCPBLETransport
 
-`MCPBLETransport` 是一个面向 iOS 的 BLE 传输库，用于把 `modelcontextprotocol/swift-sdk` 的 `Client` 连接到 BLE MCP 设备。
+`SwiftMCPBLETransport` 是一个面向 iOS 的 BLE 传输库，用于把 `modelcontextprotocol/swift-sdk` 的 `Client` 连接到 BLE MCP 设备。
 
 ## 安装
 
 在你的 `Package.swift` 中添加依赖：
 
 ```swift
-.package(url: "https://github.com/lyf/SwfitMCPBLETransport.git", from: "0.1.0")
+.package(url: "https://github.com/omnipotence-wand/swift_mcp_ble_transport.git", from: "0.1.0")
 ```
 
 并在目标中加入：
 
 ```swift
-.product(name: "MCPBLETransport", package: "SwfitMCPBLETransport")
+.product(name: "SwiftMCPBLETransport", package: "swift-mcp-ble-transport")
 ```
 
 ## 快速使用
 
 ```swift
 import MCP
-import MCPBLETransport
+import SwiftMCPBLETransport
 
 let client = Client(name: "BLEClient", version: "1.0.0")
 let transport = BLEMCPTransport(
@@ -55,4 +55,3 @@ print(tools.map(\.name))
 
 - `NSBluetoothAlwaysUsageDescription`
 - `NSBluetoothPeripheralUsageDescription`
-

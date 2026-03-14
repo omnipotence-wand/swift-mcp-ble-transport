@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-@testable import MCPBLETransport
+@testable import SwiftMCPBLETransport
 
 @Test
 func assembler_roundTrip() throws {
