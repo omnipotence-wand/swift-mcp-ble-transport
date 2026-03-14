@@ -2,15 +2,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwfitMCPBLETransport",
+    name: "swift-mcp-ble-transport",
     platforms: [
         .iOS(.v16),
         .macOS(.v13)
     ],
     products: [
         .library(
-            name: "MCPBLETransport",
-            targets: ["MCPBLETransport"]
+            name: "SwiftMCPBLETransport",
+            targets: ["SwiftMCPBLETransport"]
         )
     ],
     dependencies: [
@@ -19,15 +19,15 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "MCPBLETransport",
+            name: "SwiftMCPBLETransport",
             dependencies: [
                 .product(name: "MCP", package: "swift-sdk"),
                 .product(name: "Logging", package: "swift-log")
             ]
         ),
         .testTarget(
-            name: "MCPBLETransportTests",
-            dependencies: ["MCPBLETransport"]
+            name: "SwiftMCPBLETransportTests",
+            dependencies: ["SwiftMCPBLETransport"]
         )
     ]
 )

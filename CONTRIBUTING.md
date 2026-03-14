@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你愿意为 MCPBLETransport 贡献代码或建议。
+感谢你愿意为 SwiftMCPBLETransport 贡献代码或建议。
 
 ## 提交 Issue
 

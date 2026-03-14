@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-@testable import MCPBLETransport
+@testable import SwiftMCPBLETransport
 
 @Test
 func framer_singlePacket() throws {

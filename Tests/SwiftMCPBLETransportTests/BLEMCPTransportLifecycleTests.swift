@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-@testable import MCPBLETransport
+@testable import SwiftMCPBLETransport
 
 #if canImport(CoreBluetooth)
 import CoreBluetooth
